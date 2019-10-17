@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comparativa- pasayuser</title>
+    <style>
+    table, tr, th, td {
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Pasayuser- Comparativa de coches</h1>
+    <br>
+    <p style="text-align: center;">Vamos a comparar estos coches</p>
+    <br><br>
+    <ol>
+        <li>Skoda - pasayuser - Superb</li>
+        <li>Skoda – extra - Kodiaq</li>
+        <li>Renault – extra - Zoe</li>
+        <li>Renault – extra - Espace</li>
+    </ol>  
+    <br><br>  
+
+    <video controls loop="loop" width="300" height="300">
+        <source src="video/SkodaSuperb.mp4" type="video/mp4">
+        <source src="video/SkodaSuperb.avi" type="video/avi">    
+        <source src="video/SkodaSuperb.ogv" type="video/ogv">
+            Tu navegador no soporta video
+    </video>
+<br><br>
+
+<table>
+    <thead>
+        <tr>
+            <th >Modelos de coches</th>
+            <th>Skoda</th>
+            <th>Renault</th>
+        </tr>
+    </thead>
+        
+    <tbody>
+                <tr>
+                    <td rowspan="2"></td>
+                    <td><img src="img/SkodaSuperb.jpg" alt="skoda superb"></td>
+                    <td><img src="img/RenaultZOE.jpg" alt="Zoe"></td>
+                </tr>
+                <tr>
+                    
+                    <td><img src="img/SkodaKodiaq.jpg" alt="kodiaq"></td>
+                    <td><img src="img/RenaultEspace.jpg" alt=""></td>
+                </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td style="text-align: center;" colspan="3">Esto es el pie de la tabla: Datos tomados de autofacil.es<br>Nombre del fichero de examen pas_ayu_ser_ex171019.html</td>
+        </tr>
+    </tfoot>
+</table>
+
+<br><br>
+
+<h2 style="text-align: center;">Encuesta</h2>
+<div>
+<form action="">
+    <legend>Rellena los datos con tu modelo de coche favorito: </legend>
+    <br>
+    <label for="idmarca">Marca:</label><br>
+    <input type="text" name="marca" id="idmarca" placeholder="Introduce marca" title="Introduce marca" required><br>
+    <label for="idmodelo">Modelo:</label><br>
+    <input type="text" name="modelo" id="idmodelo" placeholder="Introduce modelo" title="Introduce marca" required><br>
+    <label for="idcv">CV:</label><br>
+    <input type="number" name="cv" id="idcv" placeholder="Introduce Potencia" title="introduce potencia" required><br>
+    <label for="idcolor">Color favorito para el coche: </label><br>
+    <input type="color" name="color" id="idcolor" required ><br>
+    <label for="iduser">Identidicador de usuario</label><br>
+    <input type="text" name="user" id="iduser" placeholder="identificador" title="Debe empezar por dos letras mayúsculas, seguidas de 4 números, seguida de una letra y seguida de un número" maxlength="8" pattern="[A-Z]{2}[0-9]{4}[a-z]{1}[0-9]{1}" required><br>
+    <input type="submit" value="Enviar mis opciones" style="padding: 2, 20;">
+
+</form>
+</div>
+</body>
+</html>
